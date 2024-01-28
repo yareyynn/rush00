@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ysakarya <ysakarya@student.42.fr>          +#+  +:+       +#+        */
+/*   By: byapici <byapici@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/28 13:23:23 by ysakarya          #+#    #+#             */
-/*   Updated: 2024/01/28 13:23:40 by ysakarya         ###   ########.fr       */
+/*   Created: 2024/01/28 16:00:54 by byapici           #+#    #+#             */
+/*   Updated: 2024/01/28 16:06:03 by byapici          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "rush02.c"
+extern void	rush(int a, int b);
 
-int main()
+int	main(void)
 {
-	rush(3,3);
+	rush(3, 3);
 	return (0);
 }
